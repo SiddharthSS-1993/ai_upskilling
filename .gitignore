@@ -1,0 +1,7 @@
+.env
+ai_upskilling/
+__pycache__/
+.vscode/
+*.__pyc
+*.log
+.env
