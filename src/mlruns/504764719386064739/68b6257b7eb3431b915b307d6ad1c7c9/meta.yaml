@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/MachineLearningCourse/AI%20Upskilling/ai%20upskilling/src/mlruns/504764719386064739/68b6257b7eb3431b915b307d6ad1c7c9/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '504764719386064739'
+lifecycle_stage: active
+run_id: 68b6257b7eb3431b915b307d6ad1c7c9
+run_name: Data_Cleaning_v1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760874524441
+status: 1
+tags: []
+user_id: Siddharth SS

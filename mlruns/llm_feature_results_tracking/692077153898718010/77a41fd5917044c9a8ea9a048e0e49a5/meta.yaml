@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/MachineLearningCourse/AI Upskilling/ai upskilling/mlruns/llm_feature_results_tracking/692077153898718010/77a41fd5917044c9a8ea9a048e0e49a5/artifacts
+end_time: 1760881479406
+entry_point_name: ''
+experiment_id: '692077153898718010'
+lifecycle_stage: active
+run_id: 77a41fd5917044c9a8ea9a048e0e49a5
+run_name: Sentence Transformers Evaluation
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760881479287
+status: 3
+tags: []
+user_id: Siddharth SS

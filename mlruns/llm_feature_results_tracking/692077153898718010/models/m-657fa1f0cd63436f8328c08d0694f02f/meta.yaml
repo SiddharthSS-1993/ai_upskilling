@@ -1,0 +1,10 @@
+artifact_location: file:///C:/MachineLearningCourse/AI Upskilling/ai upskilling/mlruns/llm_feature_results_tracking/692077153898718010/models/m-657fa1f0cd63436f8328c08d0694f02f/artifacts
+creation_timestamp: 1760882097359
+experiment_id: '692077153898718010'
+last_updated_timestamp: 1760882100745
+model_id: m-657fa1f0cd63436f8328c08d0694f02f
+model_type: null
+name: Principal Component Analysis model
+source_run_id: 3db5fe77a70b4a4c99b746e66280c3c8
+status: 2
+status_message: null

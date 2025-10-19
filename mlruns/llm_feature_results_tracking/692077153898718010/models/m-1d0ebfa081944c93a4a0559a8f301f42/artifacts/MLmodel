@@ -1,0 +1,14 @@
+artifact_path: file:///C:/MachineLearningCourse/AI Upskilling/ai upskilling/mlruns/llm_feature_results_tracking/692077153898718010/models/m-1d0ebfa081944c93a4a0559a8f301f42/artifacts
+flavors:
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 3.4.0
+model_id: m-1d0ebfa081944c93a4a0559a8f301f42
+model_size_bytes: 91395458
+model_uuid: m-1d0ebfa081944c93a4a0559a8f301f42
+prompts: null
+run_id: 3db5fe77a70b4a4c99b746e66280c3c8
+utc_time_created: '2025-10-19 13:54:46.723269'
