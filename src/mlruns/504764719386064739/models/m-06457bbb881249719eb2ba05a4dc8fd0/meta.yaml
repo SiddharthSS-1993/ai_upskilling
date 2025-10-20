@@ -1,0 +1,10 @@
+artifact_location: file:///C:/MachineLearningCourse/AI%20Upskilling/ai%20upskilling/src/mlruns/504764719386064739/models/m-06457bbb881249719eb2ba05a4dc8fd0/artifacts
+creation_timestamp: 1760940895802
+experiment_id: '504764719386064739'
+last_updated_timestamp: 1760940900218
+model_id: m-06457bbb881249719eb2ba05a4dc8fd0
+model_type: null
+name: final_rf_model
+source_run_id: 0cdb4f6504944c3c96c1aa87d27396ef
+status: 2
+status_message: null

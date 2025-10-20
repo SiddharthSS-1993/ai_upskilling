@@ -1,10 +1,12 @@
+#Data Ingestion and Description
 import pandas as pd
 
 # DATA HANDLING
 import scipy.stats as stats
 import numpy as np
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split, StratifiedKFold, cross_val_score
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
+import optuna
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.ensemble import RandomForestClassifier
@@ -17,7 +19,36 @@ import mlflow, mlflow.sklearn
 # Visualization
 import seaborn as sns
 import matplotlib.pyplot as  plt
+import warnings
+warnings.filterwarnings("ignore")
 
+def build_pipeline(trial: optuna.Trial) -> Pipeline:
+    # Search Space for Random Forest
+    n_estimators = trial.suggest_int("n_estimators", 100, 600, step=50)
+    max_depth = trial.suggest_int("max_depth", 3, 20)
+    min_sample_split = trial.suggest_int("min_sample_split", 2, 20)
+    min_sample_leaf = trial.suggest_int("min_sample_leaf", 1, 10)
+    max_features = trial.suggest_categorical("max_features", ["sqrt", "log2", None])
+
+    model = RandomForestClassifier(n_estimators=n_estimators,
+                                   max_depth=max_depth,
+                                   min_samples_split = min_sample_split,
+                                   min_samples_leaf=min_sample_leaf,
+                                   max_features=max_features,
+                                   random_state=42,
+                                   n_jobs=-1)
+    pipe = Pipeline([("preprocess", preprocessor),
+                     ("model", model)])
+    return pipe
+
+def objective(trial: optuna.Trial) -> float:
+    pipe = build_pipeline(trial)
+    # Use ROC-AUC (higher is better)
+    scores = cross_val_score(pipe, X, Y, scoring="roc_auc", cv=cv, n_jobs=-1)
+    return scores.mean()
+
+# Initialize optuna study
+study = optuna.create_study(direction="maximize", study_name="roc_auc_study")
 # MLFLOW Experiment For ML Pipeline
 mlflow.set_experiment("TitanicPipeline")
 with mlflow.start_run(run_name="Data_Cleaning_v1") as run:
@@ -102,7 +133,20 @@ with mlflow.start_run(run_name="Data_Cleaning_v1") as run:
     preprocessor = ColumnTransformer([("numericals", StandardScaler(), numerical_features),
                                       ("categoricals", OneHotEncoder(handle_unknown="ignore"), categorical_features),
                                     ])
-    # 5. Build Model Pipeline
+    
+    # 5. Cross Validation and Hyper Parameter Tuning with Optuna
+    cv = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
+
+    study.optimize(objective, n_trials=25, show_progress_bar=False)
+ 
+    # Log best trial
+    best = study.best_trial
+    print(study.best_value)
+    print("\n" + str(best.params))
+    mlflow.log_metric("best_cv_auc", study.best_value)
+    mlflow.log_params(best.params)
+    
+    # 5. Build Model Pipeline Static
     pipeline = Pipeline([("preprocess", preprocessor),
                          ("model", RandomForestClassifier(n_estimators=300,
                                                           random_state=42,
@@ -111,10 +155,34 @@ with mlflow.start_run(run_name="Data_Cleaning_v1") as run:
     predictor = pipeline.predict(X_test)
     probsX = pipeline.predict_proba(X_test)[:, 1]
 
+    # Build Model Pipeline with best hyperparameters
+    final_pipe = build_pipeline(best)
+    final_pipe.fit(X, Y)
+
+    mlflow.sklearn.log_model(final_pipe, "final_rf_model")
+
+    # Visualize Optuna History Locally and save artifact
+    optimization_history = optuna.visualization.matplotlib.plot_optimization_history(study)
+    [optimization_history.write_image("optuna_history.png"
+                    ) if hasattr(optimization_history, "write_image")
+                      else plt.savefig("optuna_history.png")]
+    parameter_importance = optuna.visualization.matplotlib.plot_param_importances(study)
+    plt.savefig("optuna_parameter_importance.png")
+    
+    parallel_coordinates = optuna.visualization.matplotlib.plot_parallel_coordinate(study)
+    plt.savefig("optuna_parallel_coordinates.png")
+    
+    
+    mlflow.log_artifact("optuna_history.png")
+    mlflow.log_artifact("optuna_parameter_importance.png")
+    mlflow.log_artifact("optuna_parallel_coordinates.png")
+
     # 6. Model Evaluation
     accuracy = accuracy_score(Y_test, predictor)
     auc = roc_auc_score(Y_test, probsX)
 
+    print("Best AUC", study.best_value)
+    print("Best Hyper Parameters", study.best_trial.params)
     print(f"Accuracy: {accuracy: 3f}")
     print(f"ROC-AUC: {auc: 3f}")
     print(classification_report(Y_test, predictor))

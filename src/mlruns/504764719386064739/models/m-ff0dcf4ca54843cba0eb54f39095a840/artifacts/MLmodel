@@ -1,0 +1,22 @@
+artifact_path: file:///C:/MachineLearningCourse/AI%20Upskilling/ai%20upskilling/src/mlruns/504764719386064739/models/m-ff0dcf4ca54843cba0eb54f39095a840/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 3.4.0
+model_id: m-ff0dcf4ca54843cba0eb54f39095a840
+model_size_bytes: 5338010
+model_uuid: m-ff0dcf4ca54843cba0eb54f39095a840
+prompts: null
+run_id: 13ca9605ee7a45c88f8c4cd45c2ef55d
+utc_time_created: '2025-10-20 06:05:48.801112'
