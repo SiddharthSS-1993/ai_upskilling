@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/MachineLearningCourse/AI Upskilling/ai upskilling/mlruns/result_tracking_for_titanic/861315271347751876/fa23f71b3c4144e6a499340788735323/artifacts
+end_time: 1760946794514
+entry_point_name: ''
+experiment_id: '861315271347751876'
+lifecycle_stage: active
+run_id: fa23f71b3c4144e6a499340788735323
+run_name: optuna_retrieval
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760946684026
+status: 3
+tags: []
+user_id: Siddharth SS
