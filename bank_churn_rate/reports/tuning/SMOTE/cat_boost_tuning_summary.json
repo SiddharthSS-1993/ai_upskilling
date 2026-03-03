@@ -1,0 +1,11 @@
+{
+    "method": "SMOTE",
+    "model": "cat_boost",
+    "best_value_composite": 0.823740595576109,
+    "post_fit_composite": 0.8244489986365187,
+    "f1_macro": 0.7777078548964541,
+    "roc_auc": 0.8711901423765831,
+    "best_parameters_path": "C:\\MachineLearningCourse\\AI_Upskilling\\ai_upskilling\\bank_churn_rate\\models\\tuned\\SMOTE\\cat_boost_best_parameters.json",
+    "study_path": "C:\\MachineLearningCourse\\AI_Upskilling\\ai_upskilling\\bank_churn_rate\\models\\tuned\\SMOTE\\cat_boost_study.pkl",
+    "tuned_model_path": "C:\\MachineLearningCourse\\AI_Upskilling\\ai_upskilling\\bank_churn_rate\\models\\tuning_models\\SMOTE\\cat_boost_best.pkl"
+}

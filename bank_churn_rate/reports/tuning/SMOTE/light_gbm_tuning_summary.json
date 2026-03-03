@@ -1,0 +1,11 @@
+{
+    "method": "SMOTE",
+    "model": "light_gbm",
+    "best_value_composite": 0.8201717715822545,
+    "post_fit_composite": 0.8206587527785463,
+    "f1_macro": 0.7732892307491568,
+    "roc_auc": 0.8680282748079358,
+    "best_parameters_path": "C:\\MachineLearningCourse\\AI_Upskilling\\ai_upskilling\\bank_churn_rate\\models\\tuned\\SMOTE\\light_gbm_best_parameters.json",
+    "study_path": "C:\\MachineLearningCourse\\AI_Upskilling\\ai_upskilling\\bank_churn_rate\\models\\tuned\\SMOTE\\light_gbm_study.pkl",
+    "tuned_model_path": "C:\\MachineLearningCourse\\AI_Upskilling\\ai_upskilling\\bank_churn_rate\\models\\tuning_models\\SMOTE\\light_gbm_best.pkl"
+}

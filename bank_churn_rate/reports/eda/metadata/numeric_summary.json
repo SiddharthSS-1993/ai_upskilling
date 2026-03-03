@@ -1,0 +1,98 @@
+{
+    "count": {
+        "RowNumber": 10000.0,
+        "CustomerId": 10000.0,
+        "CreditScore": 10000.0,
+        "Age": 10000.0,
+        "Tenure": 10000.0,
+        "Balance": 10000.0,
+        "NumOfProducts": 10000.0,
+        "HasCrCard": 10000.0,
+        "IsActiveMember": 10000.0,
+        "EstimatedSalary": 10000.0
+    },
+    "mean": {
+        "RowNumber": 5000.5,
+        "CustomerId": 15690940.5694,
+        "CreditScore": 650.5288,
+        "Age": 38.9218,
+        "Tenure": 5.0128,
+        "Balance": 76485.889288,
+        "NumOfProducts": 1.5302,
+        "HasCrCard": 0.7055,
+        "IsActiveMember": 0.5151,
+        "EstimatedSalary": 100090.239881
+    },
+    "std": {
+        "RowNumber": 2886.8956799071675,
+        "CustomerId": 71936.18612274883,
+        "CreditScore": 96.65329873613061,
+        "Age": 10.487806451704591,
+        "Tenure": 2.892174377049708,
+        "Balance": 62397.40520238623,
+        "NumOfProducts": 0.5816543579989936,
+        "HasCrCard": 0.45584046447514237,
+        "IsActiveMember": 0.4997969284589202,
+        "EstimatedSalary": 57510.49281769822
+    },
+    "min": {
+        "RowNumber": 1.0,
+        "CustomerId": 15565701.0,
+        "CreditScore": 350.0,
+        "Age": 18.0,
+        "Tenure": 0.0,
+        "Balance": 0.0,
+        "NumOfProducts": 1.0,
+        "HasCrCard": 0.0,
+        "IsActiveMember": 0.0,
+        "EstimatedSalary": 11.58
+    },
+    "25%": {
+        "RowNumber": 2500.75,
+        "CustomerId": 15628528.25,
+        "CreditScore": 584.0,
+        "Age": 32.0,
+        "Tenure": 3.0,
+        "Balance": 0.0,
+        "NumOfProducts": 1.0,
+        "HasCrCard": 0.0,
+        "IsActiveMember": 0.0,
+        "EstimatedSalary": 51002.11
+    },
+    "50%": {
+        "RowNumber": 5000.5,
+        "CustomerId": 15690738.0,
+        "CreditScore": 652.0,
+        "Age": 37.0,
+        "Tenure": 5.0,
+        "Balance": 97198.54000000001,
+        "NumOfProducts": 1.0,
+        "HasCrCard": 1.0,
+        "IsActiveMember": 1.0,
+        "EstimatedSalary": 100193.915
+    },
+    "75%": {
+        "RowNumber": 7500.25,
+        "CustomerId": 15753233.75,
+        "CreditScore": 718.0,
+        "Age": 44.0,
+        "Tenure": 7.0,
+        "Balance": 127644.24,
+        "NumOfProducts": 2.0,
+        "HasCrCard": 1.0,
+        "IsActiveMember": 1.0,
+        "EstimatedSalary": 149388.2475
+    },
+    "max": {
+        "RowNumber": 10000.0,
+        "CustomerId": 15815690.0,
+        "CreditScore": 850.0,
+        "Age": 92.0,
+        "Tenure": 10.0,
+        "Balance": 250898.09,
+        "NumOfProducts": 4.0,
+        "HasCrCard": 1.0,
+        "IsActiveMember": 1.0,
+        "EstimatedSalary": 199992.48
+    }
+}

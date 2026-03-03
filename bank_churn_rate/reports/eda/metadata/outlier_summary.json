@@ -1,0 +1,72 @@
+{
+    "RowNumber": {
+        "iqr": 4999.5,
+        "lower_bound": -4998.5,
+        "median": 5000.5,
+        "upper_bound": 14999.5,
+        "outlier_count": "9999"
+    },
+    "CustomerId": {
+        "iqr": 124705.5,
+        "lower_bound": 15441470.0,
+        "median": 15690738.0,
+        "upper_bound": 15940292.0,
+        "outlier_count": "9985"
+    },
+    "CreditScore": {
+        "iqr": 134.0,
+        "lower_bound": 383.0,
+        "median": 652.0,
+        "upper_bound": 919.0,
+        "outlier_count": "9095"
+    },
+    "Age": {
+        "iqr": 12.0,
+        "lower_bound": 14.0,
+        "median": 37.0,
+        "upper_bound": 62.0,
+        "outlier_count": "9189"
+    },
+    "Tenure": {
+        "iqr": 4.0,
+        "lower_bound": -3.0,
+        "median": 5.0,
+        "upper_bound": 13.0,
+        "outlier_count": "8552"
+    },
+    "Balance": {
+        "iqr": 127644.24,
+        "lower_bound": -191466.36000000002,
+        "median": 97198.54000000001,
+        "upper_bound": 319110.60000000003,
+        "outlier_count": "10000"
+    },
+    "NumOfProducts": {
+        "iqr": 1.0,
+        "lower_bound": -0.5,
+        "median": 1.0,
+        "upper_bound": 3.5,
+        "outlier_count": "10000"
+    },
+    "HasCrCard": {
+        "iqr": 1.0,
+        "lower_bound": -1.5,
+        "median": 1.0,
+        "upper_bound": 2.5,
+        "outlier_count": "10000"
+    },
+    "IsActiveMember": {
+        "iqr": 1.0,
+        "lower_bound": -1.5,
+        "median": 1.0,
+        "upper_bound": 2.5,
+        "outlier_count": "10000"
+    },
+    "EstimatedSalary": {
+        "iqr": 98386.1375,
+        "lower_bound": -96577.09624999999,
+        "median": 100193.915,
+        "upper_bound": 296967.45375,
+        "outlier_count": "9900"
+    }
+}

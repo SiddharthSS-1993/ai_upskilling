@@ -1,0 +1,11 @@
+{
+    "method": "ADASYN",
+    "model": "cat_boost",
+    "best_value_composite": 0.8260143439115546,
+    "post_fit_composite": 0.8257166762523909,
+    "f1_macro": 0.7773126987231109,
+    "roc_auc": 0.8741206537816707,
+    "best_parameters_path": "C:\\MachineLearningCourse\\AI_Upskilling\\ai_upskilling\\bank_churn_rate\\models\\tuned\\ADASYN\\cat_boost_best_parameters.json",
+    "study_path": "C:\\MachineLearningCourse\\AI_Upskilling\\ai_upskilling\\bank_churn_rate\\models\\tuned\\ADASYN\\cat_boost_study.pkl",
+    "tuned_model_path": "C:\\MachineLearningCourse\\AI_Upskilling\\ai_upskilling\\bank_churn_rate\\models\\tuning_models\\ADASYN\\cat_boost_best.pkl"
+}

@@ -1,0 +1,11 @@
+{
+    "method": "ADASYN",
+    "model": "logistic_regression",
+    "best_value_composite": 0.7016432979449098,
+    "post_fit_composite": 0.7016432979449098,
+    "f1_macro": 0.6362823034617981,
+    "roc_auc": 0.7670042924280214,
+    "best_parameters_path": "C:\\MachineLearningCourse\\AI_Upskilling\\ai_upskilling\\bank_churn_rate\\models\\tuned\\ADASYN\\logistic_regression_best_parameters.json",
+    "study_path": "C:\\MachineLearningCourse\\AI_Upskilling\\ai_upskilling\\bank_churn_rate\\models\\tuned\\ADASYN\\logistic_regression_study.pkl",
+    "tuned_model_path": "C:\\MachineLearningCourse\\AI_Upskilling\\ai_upskilling\\bank_churn_rate\\models\\tuning_models\\ADASYN\\logistic_regression_best.pkl"
+}

@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/MachineLearningCourse/AI_Upskilling/ai_upskilling/bank_churn_rate/src/mlruns/0/8d99f7543aae4f039bf5b5a6bd6864f1/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8d99f7543aae4f039bf5b5a6bd6864f1
+run_name: SHAP_SMOTE_logistic_regression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1765128970237
+status: 1
+tags: []
+user_id: Siddharth SS

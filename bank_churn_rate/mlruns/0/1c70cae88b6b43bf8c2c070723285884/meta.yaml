@@ -1,0 +1,15 @@
+artifact_uri: file:C:\MachineLearningCourse\AI Upskilling\ai upskilling\bank_churn_rate\mlruns/0/1c70cae88b6b43bf8c2c070723285884/artifacts
+end_time: 1762704999048
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1c70cae88b6b43bf8c2c070723285884
+run_name: light_gbm_baseline
+run_uuid: 1c70cae88b6b43bf8c2c070723285884
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762704998979
+status: 3
+tags: []
+user_id: Siddharth SS

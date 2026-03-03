@@ -1,0 +1,22 @@
+{
+    "number_of_rows": 10000,
+    "number_of_columns": 14,
+    "target_column": "Exited",
+    "numeric_columns": [
+        "RowNumber",
+        "CustomerId",
+        "CreditScore",
+        "Age",
+        "Tenure",
+        "Balance",
+        "NumOfProducts",
+        "HasCrCard",
+        "IsActiveMember",
+        "EstimatedSalary"
+    ],
+    "categorical_columns": [
+        "Surname",
+        "Geography",
+        "Gender"
+    ]
+}

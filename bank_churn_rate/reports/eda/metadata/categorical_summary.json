@@ -1,0 +1,27 @@
+{
+    "Surname": {
+        "unique_values": 2932,
+        "top_5_values": {
+            "Smith": 32,
+            "Scott": 29,
+            "Martin": 29,
+            "Walker": 28,
+            "Brown": 26
+        }
+    },
+    "Geography": {
+        "unique_values": 3,
+        "top_5_values": {
+            "France": 5014,
+            "Germany": 2509,
+            "Spain": 2477
+        }
+    },
+    "Gender": {
+        "unique_values": 2,
+        "top_5_values": {
+            "Male": 5457,
+            "Female": 4543
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "method": "SMOTE",
+    "model": "logistic_regression",
+    "best_value_composite": 0.7151899796733352,
+    "post_fit_composite": 0.7151899796733352,
+    "f1_macro": 0.6542201323393857,
+    "roc_auc": 0.7761598270072847,
+    "best_parameters_path": "C:\\MachineLearningCourse\\AI_Upskilling\\ai_upskilling\\bank_churn_rate\\models\\tuned\\SMOTE\\logistic_regression_best_parameters.json",
+    "study_path": "C:\\MachineLearningCourse\\AI_Upskilling\\ai_upskilling\\bank_churn_rate\\models\\tuned\\SMOTE\\logistic_regression_study.pkl",
+    "tuned_model_path": "C:\\MachineLearningCourse\\AI_Upskilling\\ai_upskilling\\bank_churn_rate\\models\\tuning_models\\SMOTE\\logistic_regression_best.pkl"
+}

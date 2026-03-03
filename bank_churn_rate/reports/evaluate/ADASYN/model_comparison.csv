@@ -1,0 +1,11 @@
+model,method,accuracy,precision,recall,f1_score,roc_auc,roc_path,confusion_matrix,confusion_matrix_path
+cat_boost,ADASYN,0.8645,0.7151898734177216,0.5552825552825553,0.6251728907330567,0.8670072229394264,C:\MachineLearningCourse\AI_Upskilling\ai_upskilling\bank_churn_rate\reports\evaluate\ADASYN\roc_cat_boost.png,"[[1503   90]
+ [ 181  226]]",C:\MachineLearningCourse\AI_Upskilling\ai_upskilling\bank_churn_rate\reports\evaluate\ADASYN\confusion_matrix_cat_boost.png
+xgboost,ADASYN,0.861,0.6869565217391305,0.5823095823095823,0.6303191489361702,0.8610336067963187,C:\MachineLearningCourse\AI_Upskilling\ai_upskilling\bank_churn_rate\reports\evaluate\ADASYN\roc_xgboost.png,"[[1485  108]
+ [ 170  237]]",C:\MachineLearningCourse\AI_Upskilling\ai_upskilling\bank_churn_rate\reports\evaluate\ADASYN\confusion_matrix_xgboost.png
+light_gbm,ADASYN,0.8535,0.680379746835443,0.5282555282555282,0.5947441217150761,0.8532261074633956,C:\MachineLearningCourse\AI_Upskilling\ai_upskilling\bank_churn_rate\reports\evaluate\ADASYN\roc_light_gbm.png,"[[1492  101]
+ [ 192  215]]",C:\MachineLearningCourse\AI_Upskilling\ai_upskilling\bank_churn_rate\reports\evaluate\ADASYN\confusion_matrix_light_gbm.png
+random_forest,ADASYN,0.8375,0.6004901960784313,0.601965601965602,0.6012269938650306,0.8430202159015717,C:\MachineLearningCourse\AI_Upskilling\ai_upskilling\bank_churn_rate\reports\evaluate\ADASYN\roc_random_forest.png,"[[1430  163]
+ [ 162  245]]",C:\MachineLearningCourse\AI_Upskilling\ai_upskilling\bank_churn_rate\reports\evaluate\ADASYN\confusion_matrix_random_forest.png
+logistic_regression,ADASYN,0.696,0.37229987293519695,0.7199017199017199,0.490787269681742,0.7668454278623771,C:\MachineLearningCourse\AI_Upskilling\ai_upskilling\bank_churn_rate\reports\evaluate\ADASYN\roc_logistic_regression.png,"[[1099  494]
+ [ 114  293]]",C:\MachineLearningCourse\AI_Upskilling\ai_upskilling\bank_churn_rate\reports\evaluate\ADASYN\confusion_matrix_logistic_regression.png

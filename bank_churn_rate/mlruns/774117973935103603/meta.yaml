@@ -1,0 +1,6 @@
+artifact_location: file:C:\MachineLearningCourse\AI Upskilling\ai upskilling\bank_churn_rate\mlruns/774117973935103603
+creation_time: 1762699437026
+experiment_id: '774117973935103603'
+last_update_time: 1762699437026
+lifecycle_stage: active
+name: bank_churn_ADASYN_oversampling

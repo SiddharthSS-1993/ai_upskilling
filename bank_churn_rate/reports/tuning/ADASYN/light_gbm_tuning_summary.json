@@ -1,0 +1,11 @@
+{
+    "method": "ADASYN",
+    "model": "light_gbm",
+    "best_value_composite": 0.8209960230051716,
+    "post_fit_composite": 0.8209960230051716,
+    "f1_macro": 0.7725201087417959,
+    "roc_auc": 0.8694719372685474,
+    "best_parameters_path": "C:\\MachineLearningCourse\\AI_Upskilling\\ai_upskilling\\bank_churn_rate\\models\\tuned\\ADASYN\\light_gbm_best_parameters.json",
+    "study_path": "C:\\MachineLearningCourse\\AI_Upskilling\\ai_upskilling\\bank_churn_rate\\models\\tuned\\ADASYN\\light_gbm_study.pkl",
+    "tuned_model_path": "C:\\MachineLearningCourse\\AI_Upskilling\\ai_upskilling\\bank_churn_rate\\models\\tuning_models\\ADASYN\\light_gbm_best.pkl"
+}

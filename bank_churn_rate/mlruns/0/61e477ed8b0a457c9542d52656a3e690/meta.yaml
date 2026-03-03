@@ -1,0 +1,14 @@
+artifact_uri: file:C:\MachineLearningCourse\AI Upskilling\ai upskilling\bank_churn_rate\mlruns/0/61e477ed8b0a457c9542d52656a3e690/artifacts
+end_time: 1762705488658
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 61e477ed8b0a457c9542d52656a3e690
+run_name: xgboost_baseline
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762705488588
+status: 3
+tags: []
+user_id: Siddharth SS

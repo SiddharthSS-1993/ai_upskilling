@@ -1,0 +1,43 @@
+{
+    "shape": {
+        "rows": 10000,
+        "columns": 14
+    },
+    "numeric_columns": [
+        "RowNumber",
+        "CustomerId",
+        "CreditScore",
+        "Age",
+        "Tenure",
+        "Balance",
+        "NumOfProducts",
+        "HasCrCard",
+        "IsActiveMember",
+        "EstimatedSalary"
+    ],
+    "categorical_columns": [
+        "Surname",
+        "Geography",
+        "Gender"
+    ],
+    "missing_percentage": {
+        "RowNumber": 0.0,
+        "CustomerId": 0.0,
+        "Surname": 0.0,
+        "CreditScore": 0.0,
+        "Geography": 0.0,
+        "Gender": 0.0,
+        "Age": 0.0,
+        "Tenure": 0.0,
+        "Balance": 0.0,
+        "NumOfProducts": 0.0,
+        "HasCrCard": 0.0,
+        "IsActiveMember": 0.0,
+        "EstimatedSalary": 0.0,
+        "Exited": 0.0
+    },
+    "class_balance": {
+        "0": 0.7963,
+        "1": 0.2037
+    }
+}

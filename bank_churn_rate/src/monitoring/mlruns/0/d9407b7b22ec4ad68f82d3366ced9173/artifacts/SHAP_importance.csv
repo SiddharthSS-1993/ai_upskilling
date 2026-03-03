@@ -1,0 +1,14 @@
+feature,importance
+numeric_columns__CreditScore,0.1102332
+numeric_columns__Age,0.91365355
+numeric_columns__Tenure,1.6664364
+numeric_columns__Balance,0.24130327
+numeric_columns__NumOfProducts,0.7821427
+numeric_columns__HasCrCard,0.016678486
+numeric_columns__IsActiveMember,0.36217046
+numeric_columns__EstimatedSalary,0.110316604
+categorical_columns__Geography_France,0.08132492
+categorical_columns__Geography_Germany,0.18085524
+categorical_columns__Geography_Spain,0.054790437
+categorical_columns__Gender_Female,0.34037796
+categorical_columns__Gender_Male,0.09746815

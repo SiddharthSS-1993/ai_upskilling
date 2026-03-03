@@ -1,0 +1,15 @@
+artifact_uri: file:C:\MachineLearningCourse\AI Upskilling\ai upskilling\bank_churn_rate\mlruns/0/7cfadc4469294a50b1b43c477e8da522/artifacts
+end_time: 1762700799639
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7cfadc4469294a50b1b43c477e8da522
+run_name: logistic_regression_baseline
+run_uuid: 7cfadc4469294a50b1b43c477e8da522
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762700799593
+status: 4
+tags: []
+user_id: Siddharth SS

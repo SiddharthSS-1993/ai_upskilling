@@ -1,0 +1,10 @@
+artifact_location: file:C:\MachineLearningCourse\AI Upskilling\ai upskilling\bank_churn_rate\mlruns/926311276292766838/models/m-163ec96fa91e4f028102f9bd81287601/artifacts
+creation_timestamp: 1765627997768
+experiment_id: '926311276292766838'
+last_updated_timestamp: 1765628007800
+model_id: m-163ec96fa91e4f028102f9bd81287601
+model_type: ''
+name: model
+source_run_id: a3e79364bfd1487bb359cd51ff9c719c
+status: 2
+status_message: null

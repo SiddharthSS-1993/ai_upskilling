@@ -1,0 +1,11 @@
+{
+    "method": "ADASYN",
+    "model": "xgboost",
+    "best_value_composite": 0.82053545497911,
+    "post_fit_composite": 0.8179591955771922,
+    "f1_macro": 0.7717475947801982,
+    "roc_auc": 0.8641707963741863,
+    "best_parameters_path": "C:\\MachineLearningCourse\\AI_Upskilling\\ai_upskilling\\bank_churn_rate\\models\\tuned\\ADASYN\\xgboost_best_parameters.json",
+    "study_path": "C:\\MachineLearningCourse\\AI_Upskilling\\ai_upskilling\\bank_churn_rate\\models\\tuned\\ADASYN\\xgboost_study.pkl",
+    "tuned_model_path": "C:\\MachineLearningCourse\\AI_Upskilling\\ai_upskilling\\bank_churn_rate\\models\\tuning_models\\ADASYN\\xgboost_best.pkl"
+}

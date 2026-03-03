@@ -1,0 +1,14 @@
+artifact_uri: file:C:\MachineLearningCourse\AI Upskilling\ai upskilling\bank_churn_rate\mlruns/774117973935103603/5c3ad8e747a748e69ea0736fa6a4b617/artifacts
+end_time: 1765537635962
+entry_point_name: ''
+experiment_id: '774117973935103603'
+lifecycle_stage: active
+run_id: 5c3ad8e747a748e69ea0736fa6a4b617
+run_name: random_forest_baseline
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1765534859742
+status: 3
+tags: []
+user_id: Siddharth SS

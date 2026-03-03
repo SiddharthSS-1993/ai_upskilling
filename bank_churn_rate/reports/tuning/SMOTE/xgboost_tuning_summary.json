@@ -1,0 +1,11 @@
+{
+    "method": "SMOTE",
+    "model": "xgboost",
+    "best_value_composite": 0.8232658664397474,
+    "post_fit_composite": 0.8171602955543271,
+    "f1_macro": 0.7683637251517882,
+    "roc_auc": 0.8659568659568659,
+    "best_parameters_path": "C:\\MachineLearningCourse\\AI_Upskilling\\ai_upskilling\\bank_churn_rate\\models\\tuned\\SMOTE\\xgboost_best_parameters.json",
+    "study_path": "C:\\MachineLearningCourse\\AI_Upskilling\\ai_upskilling\\bank_churn_rate\\models\\tuned\\SMOTE\\xgboost_study.pkl",
+    "tuned_model_path": "C:\\MachineLearningCourse\\AI_Upskilling\\ai_upskilling\\bank_churn_rate\\models\\tuning_models\\SMOTE\\xgboost_best.pkl"
+}
